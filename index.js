@@ -15,6 +15,7 @@ function keepGoing(array, changeValue, skipValue) {
     }
     array[i] = changeValue 
   }
+  return array
 }
 
 function findBy(array, findFn) {
@@ -24,4 +25,5 @@ function findBy(array, findFn) {
     }
     return null
   }
+  return array
 }
